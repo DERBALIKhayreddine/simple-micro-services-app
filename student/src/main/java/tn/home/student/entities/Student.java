@@ -10,6 +10,7 @@ public class Student {
     private String lastName;
     private String email;
 
+    private Long addressId;
     // Getters and setters
     public Long getId() {
         return id;
@@ -41,5 +42,12 @@ public class Student {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+    public Long getAddressId() {
+        return addressId;
+    }
+
+    public void setAddressId(Long addressId) {
+        this.addressId = addressId;
     }
 }
